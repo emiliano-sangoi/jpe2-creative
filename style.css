@@ -1,0 +1,23 @@
+/*
+Theme Name: II Jornadas de Plataformas Educativas
+Theme URI: 
+Author: Emiliano Sangoi
+Author URI: 
+Description: Tema desarrollado para el sitio de Jornadas de Plataformas Educativas. El tema fue creado a partir del tema gratuito de Bootstrap "Creative" (http://startbootstrap.com/template-overviews/creative).
+Version: 1.0
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: responsive, bootstrap, II Jornadas de Plataformas Educativas
+*/
+
+body{
+	
+}
+
+/*Imagen de fondo del tema creative*/
+header.masthead {
+	background-image: url('img/header.jpg') !important;
+}
+
+
