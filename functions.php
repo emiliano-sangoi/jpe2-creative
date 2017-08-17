@@ -25,6 +25,9 @@ function jpe2_set_estilos(){
 
 	//Creative curstom css:
 	wp_enqueue_style("creative-css", get_template_directory_uri() . "/css/creative/creative.min.css");
+        
+        //CSS Spaces:
+        //wp_enqueue_style("badabam-css-spaces", get_template_directory_uri() . "/node_modules/css-spaces/dist/spaces.min.css");
 
 	//Custom Style:
 	wp_enqueue_style("jpe2-style", get_template_directory_uri() . "/style.css");

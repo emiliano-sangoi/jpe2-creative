@@ -11,13 +11,139 @@ Text Domain: twentyseventeen
 Tags: responsive, bootstrap, II Jornadas de Plataformas Educativas
 */
 
+
+/*###########################################################################*/
+/* CSS -INDICE
+    1. Body y elementos por html tag
+    2. Clases css genericas y redefinicion de clases existentes
+        2.1 Colores de texto
+        2.2 Backgrounds
+        2.3 Texto
+    3. Navbar principal
+    4. Estilos asignados por ID y redefinicion de estilos existentes por ID
+    5. Medias queries
+*/
+/*###########################################################################*/
+
+
+/*###########################################################################*/
+/*  1. Body y elementos por html tag    */
 body{
-	
+    
+
 }
+/*###########################################################################*/
+
+
+/*###########################################################################*/
+/*  2. Clases css genericas y redefinicion de clases existentes */
+
+/*  2.1 Colores de texto  */
+.jpe2-text-beige{ color: #F4F0DF; }
+.jpe2-text-light-purple{ color: #563289; }
+.jpe2-text-dark-purple{ color: #371B63 !important; }
+.jpe2-text-light-gray{ color: #f2f2f2 !important; }
+.jpe2-text-lighter-gray{ color: #d9d9d9 !important; }
+.jpe2-text-dark-gray{ color: #ccc !important; }
+
+/*  2.2 Backgrounds */
+.jpe2-bg-beige{ background-color: #F4F0DF  !important; }
+.jpe2-bg-light-purple{ background-color: #563289  !important; }
+.jpe2-bg-dark-purple{ background-color: #371B63  !important; }
+.jpe2-bg-light-gray{ background-color: #f2f2f2 !important; }
+.jpe2-bg-lighter-gray{ background-color: #d9d9d9 !important; }
+.jpe2-bg-dark-gray{ background-color: #ccc !important; }
+
+
+/*  2.3 Texto */
+
 
 /*Imagen de fondo del tema creative*/
 header.masthead {
-	background-image: url('img/header.jpg') !important;
+    background-image: url('img/header.png') !important;
+    background-position: center top;
+    color: #563289 !important;  
+    /*position: relative !important;*/
 }
+
+.header-content{
+    bottom: 10% !important;
+    top: auto !important;
+    /*position: relative  !important;*/
+}
+
+.header-content-inner{
+    /*position: absolute !important;*/
+    /*bottom: 10%  !important;*/
+
+}
+
+header.masthead h3{
+    color: inherit !important;    
+}
+
+
+
+/*###########################################################################*/
+
+
+/*###########################################################################*/
+/*  3. Navbar principal */
+/*  No se usa barra de navegacion   */
+/*###########################################################################*/
+
+
+/*###########################################################################*/
+/*  4. Estilos asignados por ID y redefinicion de estilos existentes por ID */
+#homeHeading{
+    text-transform: none;
+    font-weight: normal;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);    
+    transform: scale(0.7);
+}
+
+#about, #antecedentes {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+    font-family: inherit !important;
+}
+
+#objetivos .container, #ejes-tematicos .container{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+#ejes-tematicos{
+}
+
+
+
+
+/*###########################################################################*/
+
+
+
+
+
+
+/*###########################################################################*/
+/*  5. Medias queries   */
+
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
+/*###########################################################################*/
 
 
