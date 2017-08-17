@@ -1,7 +1,7 @@
 /*
 Theme Name: II Jornadas de Plataformas Educativas
 Theme URI: 
-Author: Emiliano Sangoi
+Author: Emiliano Sangoi (coding), Florencia Foresti (graphic design)
 Author URI: 
 Description: Tema desarrollado para el sitio de Jornadas de Plataformas Educativas. El tema fue creado a partir del tema gratuito de Bootstrap "Creative" (http://startbootstrap.com/template-overviews/creative).
 Version: 1.0
@@ -28,12 +28,7 @@ Tags: responsive, bootstrap, II Jornadas de Plataformas Educativas
 
 /*###########################################################################*/
 /*  1. Body y elementos por html tag    */
-body{
-    
-
-}
-/*###########################################################################*/
-
+/* ... */
 
 /*###########################################################################*/
 /*  2. Clases css genericas y redefinicion de clases existentes */
@@ -56,6 +51,8 @@ body{
 
 
 /*  2.3 Texto */
+/* ... */
+
 
 
 /*Imagen de fondo del tema creative*/
@@ -72,19 +69,17 @@ header.masthead {
     /*position: relative  !important;*/
 }
 
-.header-content-inner{
-    /*position: absolute !important;*/
-    /*bottom: 10%  !important;*/
+.header-content-inner h1{
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+    font-size: 30px !important;
+    text-transform: none !important;
 
 }
 
 header.masthead h3{
     color: inherit !important;    
 }
-
-
-
-/*###########################################################################*/
 
 
 /*###########################################################################*/
@@ -115,15 +110,18 @@ header.masthead h3{
     padding-right: 8em;
 }
 
-#ejes-tematicos{
+#ejes-tematicos{}
+
+#programa-content p span{
+    font-weight: bold !important;
 }
 
+#programa-content p:nth-child(2) span{
+    font-weight: normal !important;
+    color: #563289;
+}
 
-
-
-/*###########################################################################*/
-
-
+#contacto{}
 
 
 
@@ -131,19 +129,6 @@ header.masthead h3{
 /*###########################################################################*/
 /*  5. Medias queries   */
 
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
-/*###########################################################################*/
+
 
 
