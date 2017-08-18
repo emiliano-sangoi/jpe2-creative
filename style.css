@@ -1,14 +1,14 @@
 /*
 Theme Name: II Jornadas de Plataformas Educativas
 Theme URI: 
-Author: Emiliano Sangoi (coding), Florencia Foresti (graphic design)
+Author: Florencia Foresti, Mariana Romanatti and Emiliano Sangoi
 Author URI: 
-Description: Tema desarrollado para el sitio de Jornadas de Plataformas Educativas. El tema fue creado a partir del tema gratuito de Bootstrap "Creative" (http://startbootstrap.com/template-overviews/creative).
+Description: Tema de Wordpress desarrollado para el sitio de Jornadas de Plataformas Educativas. El tema fue creado a partir del tema "Creative" de Bootstrap.
 Version: 1.0
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: twentyseventeen
-Tags: responsive, bootstrap, II Jornadas de Plataformas Educativas
+Text Domain: II Jornadas de Plataformas Educativas
+Tags: UNL, FICH, responsive, bootstrap, II Jornadas de Plataformas Educativas
 */
 
 
@@ -26,9 +26,21 @@ Tags: responsive, bootstrap, II Jornadas de Plataformas Educativas
 /*###########################################################################*/
 
 
+
 /*###########################################################################*/
 /*  1. Body y elementos por html tag    */
 /* ... */
+body{
+    font-family: Open Sans, Helvetica Neue,Arial,sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    outline: 0 !important;
+}
 
 /*###########################################################################*/
 /*  2. Clases css genericas y redefinicion de clases existentes */
@@ -43,11 +55,12 @@ Tags: responsive, bootstrap, II Jornadas de Plataformas Educativas
 
 /*  2.2 Backgrounds */
 .jpe2-bg-beige{ background-color: #F4F0DF  !important; }
-.jpe2-bg-light-purple{ background-color: #563289  !important; }
-.jpe2-bg-dark-purple{ background-color: #371B63  !important; }
-.jpe2-bg-light-gray{ background-color: #f2f2f2 !important; }
-.jpe2-bg-lighter-gray{ background-color: #d9d9d9 !important; }
-.jpe2-bg-dark-gray{ background-color: #ccc !important; }
+.jpe2-bg-light-purple{ background-color: #563289 }
+.jpe2-bg-dark-purple{ background-color: #371B63 }
+.jpe2-bg-light-gray{ background-color: #f2f2f2 }
+.jpe2-bg-lighter-gray{ background-color: #d9d9d9 }
+.jpe2-bg-dark-gray{ background-color: #ccc }
+.jpe2-bg-white{ background-color: white }
 
 
 /*  2.3 Texto */
@@ -59,21 +72,28 @@ Tags: responsive, bootstrap, II Jornadas de Plataformas Educativas
 header.masthead {
     background-image: url('img/header.png') !important;
     background-position: center top;
-    color: #563289 !important;  
+    color: #563289;  
     /*position: relative !important;*/
 }
 
 .header-content{
-    bottom: 10% !important;
+    bottom: 5% !important;
     top: auto !important;
     /*position: relative  !important;*/
+}
+
+.header-content-inner h2{
+    margin-top: 1em !important;
+    font-size: 26px !important;
+    text-transform: none !important;
 }
 
 .header-content-inner h1{
     margin-top: 1em !important;
     margin-bottom: 1em !important;
-    font-size: 30px !important;
+    font-size: 34px !important;
     text-transform: none !important;
+    color: black;
 
 }
 
@@ -114,17 +134,48 @@ header.masthead h3{
 
 #programa-content p span{
     font-weight: bold !important;
+    /*color: #563289;*/
 }
 
 #programa-content p:nth-child(2) span{
-    font-weight: normal !important;
-    color: #563289;
+/*    font-weight: normal !important;
+    color: #563289;*/
 }
 
-#contacto{}
+#contacto-content p {
+    font-size: 1.2em;
+    /*margin-top: 1em;*/
+    /*margin-bottom: 1em;*/
+}
+#contacto-content p:nth-child(1){
+    margin-top: 1em;
+}
 
+#contacto-content p:nth-child(2){
+    font-style: italic;
+    font-weight: bold;    
+    
+    
+}
 
+/*Footer*/
+#footer{
+    position: relative;
+    /*border: 1px dashed yellow;*/
+}
 
+#footer .container{
+}
+
+#footer .footer-content{    
+    position: absolute;
+    left: calc(50% - 56px);
+    top: 25%;
+}
+
+#footer .footer-content img{
+    /*margin-bottom: 1em;*/
+}
 
 /*###########################################################################*/
 /*  5. Medias queries   */

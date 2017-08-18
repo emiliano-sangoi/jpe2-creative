@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <h1 class="section-heading font-weight-bold text-center">
+                <h1 class="section-heading font-weight-bold text-center mb-2">
                     <?php
                     echo $post_contacto ? $post_contacto->post_title : "Titulo de \"Contacto\" no definido";
                     ?>

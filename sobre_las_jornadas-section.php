@@ -7,7 +7,7 @@ $post_sobre_las_jornadas = get_post(8);
  */
 ?>
 
-<section class="jpe2-bg-light-gray" id="about">
+<section class="jpe2-bg-white" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
