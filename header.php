@@ -7,6 +7,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
+        
+        <style>
+            #envira-gallery-wrap-45{
+                margin-bottom: 0 !important;
+            }
+
+            #envira-gallery-45{
+                margin-bottom: 0 !important;
+            }
+
+        </style>
 
         <title><?php bloginfo('name'); ?></title>
 

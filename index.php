@@ -37,11 +37,11 @@
       partials/creative-contact.html
     */
 
-    # Objetivo y Ejes tematicos
-    get_template_part('objetivos_y_ejes', 'section');
+    # Ejes tematicos y programa:
+    get_template_part('dos-columnas', 'section');
 
-    //Programa
-    get_template_part('programa', 'section');
+    //Inscripcion
+    get_template_part('inscripcion', 'section');
 
     //Contacto
     get_template_part('contacto', 'section');
