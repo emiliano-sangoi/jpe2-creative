@@ -17,11 +17,11 @@ $post_sobre_las_jornadas = get_post(8);
                     ?>
                 </h1>
 
-                <p class="mt-lg-5 mt-md-2">
+                <div class="mt-lg-5 mt-md-2 text-justify">
                     <?php
                     echo $post_sobre_las_jornadas ? $post_sobre_las_jornadas->post_content : "Contenido no definido";
                     ?>                            
-                </p>                        
+                </div>                        
             </div>
         </div>
     </div>

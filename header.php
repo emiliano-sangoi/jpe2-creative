@@ -9,6 +9,13 @@
         <meta name="author" content="">
         
         <style>
+            section a{
+                color: blue !important;
+            }
+            section a:hover{
+                color: blue !important;
+            }
+            
             #envira-gallery-wrap-45{
                 margin-bottom: 0 !important;
             }

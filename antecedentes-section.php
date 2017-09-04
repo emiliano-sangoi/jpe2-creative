@@ -17,11 +17,11 @@ $post_antecedentes = get_post(16);
                     ?>
                 </h1>
 
-                <p class="mt-lg-5 mt-md-2">               
+                <div class="mt-lg-5 mt-md-2 text-justify">               
                     <?php
                     echo $post_antecedentes ? $post_antecedentes->post_content : "Contenido no definido";
                     ?>                            
-                </p>                        
+                </div>                        
             </div>
         </div>        
     </div>    
